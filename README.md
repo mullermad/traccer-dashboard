@@ -44,15 +44,14 @@ Set up Traccar locally, simulate device locations, and create a simple web dashb
 
 6. **Install Dependencies:**
 
-   ```npm install
-
+   ```bash
+      npm install
    ```
 
 7. **Run the Development Server:**
 
-   ```npm run dev
-
-
-   ```
+```bash
+   npm run dev
+```
 
 8. **Open the dashboard at http://localhost:5183/ in your browser.**
