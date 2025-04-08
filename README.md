@@ -36,7 +36,7 @@ Set up Traccar locally, simulate device locations, and create a simple web dashb
  --data-urlencode "timestamp=$(date +%s000)"```
 ````
 
-# device id are 1234567653,123456789012345 and 987654321098765 are mock device id i inserted
+device id are 1234567653,123456789012345 and 987654321098765 are mock device id i inserted
 
 5. **Clone the Web Dashboard Repository:**
    git clone `https://github.com/mullermad/traccer-dashboard`
