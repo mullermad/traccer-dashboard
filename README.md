@@ -40,7 +40,7 @@ Set up Traccar locally, simulate device locations, and create a simple web dashb
 
 5. **Clone the Web Dashboard Repository:**
    git clone `https://github.com/mullermad/traccer-dashboard`
-   cd portfolio
+   cd traccer-dashboard
 
 6. **Install Dependencies:**
 
