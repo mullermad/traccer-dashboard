@@ -95,15 +95,16 @@ const Map = ({ devices, selectedDevice }) => {
           [device.latitude, device.longitude],
           { icon: isOnline ? greenIcon : redIcon } // <-- use the icon
         ).addTo(mapRef.current).bindPopup(`
-            <div style="min-width: 150px;">
-              <strong>${device.name}</strong><br>
-              <span style="font-size: 0.9em; color: #666;">
-                ${device.latitude.toFixed(6)}, ${device.longitude.toFixed(6)}
-              </span><br>
-              <span style="font-size: 0.8em; color: #888;">
-                Last update: ${new Date(device.lastUpdate).toLocaleString()}
-              </span>
-            </div>
+           <div style="min-width: 250px; padding: 10px;">
+  <strong style="font-size: 1.2em;">${device.name}</strong><br>
+  <span style="font-size: 1em; color: #666;">
+    ${device.latitude.toFixed(6)}, ${device.longitude.toFixed(6)}
+  </span><br>
+  <span style="font-size: 0.95em; color: #888;">
+    Last update: ${new Date(device.lastUpdate).toLocaleString()}
+  </span>
+</div>
+
           `);
 
         // Store marker with device ID for reference

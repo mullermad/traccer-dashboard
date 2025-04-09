@@ -54,4 +54,6 @@ device id are 1234567653,123456789012345 and 987654321098765 are mock device id 
    npm run dev
 ```
 
-8. **Open the dashboard at http://localhost:5183/ in your browser.**
+finally Open the dashboard at http://localhost:5183/ in your browser.
+
+8. **In assets folder there is screenshoots of the web app**
